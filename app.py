@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # API Key de OpenWeather (usa variable de entorno en Render)
-OPENWEATHER_API_KEY = os.environ.get("08d022fcd1eb33514eae9451cf3cc2ac")
+OPENWEATHER_API_KEY = os.environ.get("OPENWEATHER_API_KEY")
 
 # Diccionario simple para convertir días a índice (0=hoy)
 DIAS = {
